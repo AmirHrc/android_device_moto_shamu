@@ -18,7 +18,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# Inherit some common LineageOS stuff.
+# Inherit some common HavocOS stuff.
 $(call inherit-product, vendor/havoc/config/common_mini_phone.mk)
 
 # Inherit from the common Open Source product configuration
